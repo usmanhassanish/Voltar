@@ -1,0 +1,23 @@
+h1
+{
+	text-align: center;
+	width: 100%;
+}
+.login-box
+{
+	width: 70%;
+	margin: auto;
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px;
+}
+#text-box
+{
+	width: 80%;
+}
+#text-heading
+{
+	width: 80%;
+	text-align: center;
+	border: 1px dodgerblue dotted;
+}
