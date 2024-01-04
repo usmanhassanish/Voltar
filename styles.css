@@ -1,7 +1,24 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+header
+{
+	background-color: black;
+	color: white;
+	margin-top: 0;
+	margin: 0;
+    padding: 0;
+}
 h1
 {
 	text-align: center;
 	width: 100%;
+	margin: 0;
+    padding: 0;
 }
 .login-box
 {
@@ -10,6 +27,7 @@ h1
 	border: 1px solid black;
 	text-align: center;
 	padding: 10px;
+	border-radius: 5px;
 }
 #text-box
 {
@@ -20,4 +38,63 @@ h1
 	width: 80%;
 	text-align: center;
 	border: 1px dodgerblue dotted;
+}
+.large-screen
+{
+	display: none;
+}
+table
+{
+	width: 90%;
+	margin: auto;
+}
+td
+{
+	border: 1px solid dodgerblue;
+}
+#bold
+{
+	font-weight: bold;
+}
+.left
+{
+	width: 10%;
+	text-align: center;
+	float: left;
+	background-color: dodgerblue;
+	height: 100vh;
+
+}
+.mid
+{
+	width: 80%;
+	text-align: center;
+	float: left;
+	border-top: 1px solid dodgerblue;
+	border-bottom: 1px solid dodgerblue;
+}
+.right
+{
+	width: 10%;
+	text-align: center;
+	float: right;
+	background-color: dodgerblue;
+	height: 100vh;
+
+}
+@media (min-width: 651px) {
+  body {
+    
+  }
+
+  .large-screen
+{
+	display: block;
+}
+
+  .small-screen
+{
+	display: none;
+}
+
 }
