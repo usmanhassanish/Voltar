@@ -82,6 +82,24 @@ td
 	height: 100vh;
 
 }
+.first
+{
+	float: left;
+	width: 50%;
+	border-bottom: 1px darkgreen dotted;
+	font-style: italic;
+	text-align: center;
+	background-color: whitesmoke;
+
+}
+.second
+{
+	float: right;
+	width: 50%;
+	background-color: white;
+	border-bottom: 1px dodgerblue dotted;
+	text-align: center;
+}
 @media (min-width: 651px) {
   body {
     
