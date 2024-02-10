@@ -1,118 +1,125 @@
 body
 {
-	margin: 0;
 	padding: 0;
-	height: 100%;
+	margin: 0;
 }
-
-header
+.top-nav
+{
+	width: 100%;
+	text-align: center;
+	color: black;
+	background-color: grey;
+	height: 30px;
+	
+}
+.logo
+{
+	font-size: 26px;
+}
+.top-text
 {
 	background-color: black;
-	color: white;
-	margin-top: 0;
-	margin: 0;
-    padding: 0;
-}
-h1
-{
-	text-align: center;
 	width: 100%;
-	margin: 0;
-    padding: 0;
+	text-align:center;
+	color: white;
+	height: 30px;
+	font-size: 26px;
 }
-.login-box
+i
 {
-	width: 70%;
-	margin: auto;
-	border: 1px solid black;
-	text-align: center;
-	padding: 10px;
-	border-radius: 5px;
-}
-#text-box
-{
-	width: 80%;
-}
-#text-heading
-{
-	width: 80%;
-	text-align: center;
-	border: 1px dodgerblue dotted;
-}
-.large-screen
-{
-	display: none;
-}
-table
-{
-	width: 90%;
-	margin: auto;
-}
-td
-{
-	border: 1px solid dodgerblue;
-}
-#bold
-{
-	font-weight: bold;
-}
-.left
-{
-	width: 10%;
-	text-align: center;
-	float: left;
-	background-color: dodgerblue;
-	height: 100vh;
-
-}
-.mid
-{
-	width: 80%;
-	text-align: center;
-	float: left;
-	border-top: 1px solid dodgerblue;
-	border-bottom: 1px solid dodgerblue;
-}
-.right
-{
-	width: 10%;
-	text-align: center;
-	float: right;
-	background-color: dodgerblue;
-	height: 100vh;
-
-}
-.first
-{
-	float: left;
-	width: 50%;
-	border-bottom: 1px darkgreen dotted;
-	font-style: italic;
-	text-align: center;
-	background-color: whitesmoke;
-
-}
-.second
-{
-	float: right;
-	width: 50%;
-	background-color: white;
-	border-bottom: 1px dodgerblue dotted;
-	text-align: center;
-}
-@media (min-width: 651px) {
-  body {
-    
-  }
-
-  .large-screen
-{
-	display: block;
+	color: white;
 }
 
-  .small-screen
-{
-	display: none;
+.card-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+.card {
+  width: 200px;
+  height: 250px;
+  background-color: #008080;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
+
+.card img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  text-align: center;
+}
+.order
+{
+  width: 100%;
+}
+button
+{
+  background-color: black;
+  color: white;
+}
+.container {
+  display: flex;
+  width: 100%;
+}
+
+input
+{
+  width: 95%;
+  text-align: center;
+}
+
+
+
+
+
+
+    @media screen and (max-width: 768px) {
+      .card {
+        width: calc(50% - 20px);
+
+
+      }
+      .hide
+      {
+        display: none;
+      }
+
+      .bold
+{
+  font-size: 15px;
+  font-family:Georgia, serif ;
+}
+    }
+
+    @media screen and (max-width: 480px) {
+      .card {
+        width: calc(50% - 20px);
+      }
+.hide
+      {
+        display: none;
+      }
+      .bold
+{
+  font-size: 15px;
+  font-family:Georgia, serif ;
+}
+    }
+
+    @media screen and (max-width: 350px) {
+      .card {
+        width: calc(50% - 20px);
+        
+      }
+      
+      .bold
+{
+  font-size: 15px;
+  font-family:Georgia, serif ;
+}
+    }
